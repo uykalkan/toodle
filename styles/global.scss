@@ -1,0 +1,15 @@
+@import "core/main";
+
+.task-list {
+  box-sizing: border-box;
+  padding: $base-unit * 2 0;
+}
+
+.icon {
+  width: $base-unit * 3;
+  height: $base-unit * 3;
+  fill: $gray-600;
+  &:hover {
+    fill: $primary-color;
+  }
+}
